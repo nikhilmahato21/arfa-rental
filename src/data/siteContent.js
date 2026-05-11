@@ -3,7 +3,8 @@ export const siteContent = {
     name: 'ARFA',
     tagline: 'CAR RENTAL SERVICE',
     phone: '7003384410',
-    whatsapp: '917003384410',
+    whatsapp: '919804713564',
+    whatsappDisplay: '9804713564',
     email: 'arfarentals@gmail.com',
     location: 'MOULALI (SEALDAH), KOLKATA',
     locationShort: 'Moulali · Sealdah',
@@ -122,7 +123,7 @@ export const siteContent = {
     },
     {
       q: 'How do I book a car?',
-      a: 'Call or WhatsApp us at 7003384410. We confirm availability, discuss your trip, and finalize the booking. No app needed — just a quick call!',
+      a: 'Call us at 7003384410 or WhatsApp us at 9804713564. We confirm availability, discuss your trip, and finalize the booking. No app needed — just a quick call or message.',
     },
     {
       q: 'What is your pricing structure?',
@@ -140,7 +141,8 @@ export const siteContent = {
 
   contact: {
     phone: '7003384410',
-    whatsapp: '917003384410',
+    whatsapp: '919804713564',
+    whatsappDisplay: '9804713564',
     email: 'arfarentals@gmail.com',
     address: 'Moulali, Near Sealdah',
     city: 'Kolkata, West Bengal — 700014',

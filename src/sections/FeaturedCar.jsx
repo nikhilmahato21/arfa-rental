@@ -176,7 +176,7 @@ export default function FeaturedCar() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 btn-secondary border-white/30 text-white hover:text-amber-400 hover:border-amber-500"
               >
-                WhatsApp Us
+                WhatsApp {brand.whatsappDisplay}
               </a>
             </div>
           </motion.div>

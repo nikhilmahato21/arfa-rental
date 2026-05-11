@@ -62,7 +62,7 @@ export default function CTAStrip() {
                          focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 focus:ring-offset-steel-950"
             >
               <MessageCircle size={18} strokeWidth={2.5} />
-              WhatsApp Us
+              WhatsApp {brand.whatsappDisplay}
             </a>
           </motion.div>
         </div>

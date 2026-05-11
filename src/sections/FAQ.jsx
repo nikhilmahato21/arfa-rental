@@ -55,6 +55,7 @@ function FAQItem({ item, index, isOpen, onToggle }) {
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(0)
+  const { brand } = siteContent
 
   return (
     <section id="faq" className="py-24 bg-steel-50" aria-label="Frequently asked questions">
@@ -86,10 +87,10 @@ export default function FAQ() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:7003384410"
+                href={`tel:${brand.phone}`}
                 className="btn-primary inline-flex items-center justify-center gap-2"
               >
-                Call 7003384410
+                Call {brand.phone}
               </a>
             </div>
 

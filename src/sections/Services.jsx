@@ -4,6 +4,8 @@ import ServiceCard from '../components/ServiceCard'
 import { siteContent } from '../data/siteContent'
 
 export default function Services() {
+  const { brand } = siteContent
+
   return (
     <section id="services" className="py-24 bg-steel-50" aria-label="Our services">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
@@ -54,10 +56,10 @@ export default function Services() {
             Not sure which package suits you? Just call us — we'll sort it out.
           </p>
           <a
-            href="tel:7003384410"
+            href={`tel:${brand.phone}`}
             className="inline-flex items-center gap-2 btn-primary"
           >
-            Call 7003384410
+            Call {brand.phone}
           </a>
         </motion.div>
       </div>

@@ -9,6 +9,7 @@ import FAQ from './sections/FAQ'
 import Contact from './sections/Contact'
 import CTAStrip from './components/CTAStrip'
 import Footer from './components/Footer'
+import FloatingContactButtons from './components/FloatingContactButtons'
 import Toast from './components/Toast'
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
       <FAQ />
       <Contact onToast={showToast} />
       <Footer />
+      <FloatingContactButtons />
       {toast && <Toast {...toast} onClose={() => setToast(null)} />}
     </div>
   )

@@ -75,6 +75,17 @@ export default function Footer() {
                   {contact.phone}
                 </span>
               </a>
+              <a
+                href={`https://wa.me/${contact.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 group"
+              >
+                <MessageCircle size={14} className="text-green-500 flex-shrink-0" strokeWidth={2.5} />
+                <span className="font-heading font-semibold text-sm tracking-wider text-steel-300 group-hover:text-green-400 transition-colors">
+                  {contact.whatsappDisplay}
+                </span>
+              </a>
               <div className="flex items-start gap-3">
                 <MapPin size={14} className="text-amber-500 flex-shrink-0 mt-1" strokeWidth={2.5} />
                 <div>

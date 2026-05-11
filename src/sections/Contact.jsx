@@ -76,7 +76,7 @@ export default function Contact({ onToast }) {
 
   const contactItems = [
     { icon: Phone, label: 'Phone / Call', value: contact.phone, href: `tel:${contact.phone}` },
-    { icon: MessageCircle, label: 'WhatsApp', value: contact.phone, href: `https://wa.me/${contact.whatsapp}?text=Hi, I want to book a car` },
+    { icon: MessageCircle, label: 'WhatsApp', value: contact.whatsappDisplay, href: `https://wa.me/${contact.whatsapp}?text=Hi, I want to book a car` },
     { icon: MapPin, label: 'Location', value: `${contact.address}, ${contact.city}`, href: contact.mapEmbed },
     { icon: Clock, label: 'Working Hours', value: contact.hours, href: null },
   ]

@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { MapPin, Route, Plane, Calendar, ArrowRight, Check } from 'lucide-react'
+import { siteContent } from '../data/siteContent'
 
 const iconMap = { MapPin, Route, Plane, Calendar }
 
 export default function ServiceCard({ service, index }) {
   const [hovered, setHovered] = useState(false)
   const Icon = iconMap[service.icon] || MapPin
+  const { brand } = siteContent
 
   return (
     <motion.div
@@ -62,7 +64,7 @@ export default function ServiceCard({ service, index }) {
         {/* CTA */}
         <div className="pt-4 border-t border-steel-100 flex justify-end">
           <motion.a
-            href="tel:7003384410"
+            href={`tel:${brand.phone}`}
             className="font-heading font-bold text-xs tracking-widest text-amber-600 uppercase hover:text-amber-500 transition-colors flex items-center gap-1"
             whileHover={{ x: 3 }}
           >

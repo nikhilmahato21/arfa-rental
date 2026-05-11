@@ -155,7 +155,7 @@ export default function Hero() {
                            active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-steel-950"
               >
                 <MessageCircle size={16} strokeWidth={2.5} />
-                {hero.ctaSecondary}
+                {hero.ctaSecondary} {brand.whatsappDisplay}
               </a>
             </motion.div>
 

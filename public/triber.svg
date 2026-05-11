@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" fill="none">
+  <!-- Background -->
+  <rect width="900" height="420" fill="#0f1923"/>
+
+  <!-- Shadow under car -->
+  <ellipse cx="450" cy="370" rx="300" ry="22" fill="#000" opacity="0.5"/>
+
+  <!-- Rear wheel well -->
+  <path d="M180 310 Q170 345 200 355 Q230 360 240 340" stroke="#2a3a4a" stroke-width="2" fill="none"/>
+  <!-- Front wheel well -->
+  <path d="M620 310 Q610 345 640 355 Q670 360 680 340" stroke="#2a3a4a" stroke-width="2" fill="none"/>
+
+  <!-- Car body - main silhouette -->
+  <path d="M120 340 L130 260 L200 200 L320 170 L440 165 L560 170 L660 200 L730 250 L750 290 L760 340 Z"
+        fill="#1e2d3d" stroke="#2a3a4a" stroke-width="1.5"/>
+
+  <!-- Roof -->
+  <path d="M245 200 L290 155 L430 135 L560 140 L620 185 L650 210 L240 210 Z"
+        fill="#162030" stroke="#2a3a4a" stroke-width="1.5"/>
+
+  <!-- Windshield -->
+  <path d="M265 205 L305 158 L430 140 L430 205 Z"
+        fill="#1a3a5a" opacity="0.8" stroke="#2a4060" stroke-width="1"/>
+
+  <!-- Rear windshield -->
+  <path d="M560 145 L620 182 L620 205 L560 205 Z"
+        fill="#1a3a5a" opacity="0.8" stroke="#2a4060" stroke-width="1"/>
+
+  <!-- Side windows -->
+  <rect x="435" y="142" width="120" height="60" rx="2" fill="#1a3a5a" opacity="0.8" stroke="#2a4060" stroke-width="1"/>
+
+  <!-- Door panel lines -->
+  <line x1="435" y1="210" x2="435" y2="330" stroke="#2a3a4a" stroke-width="1.5"/>
+  <line x1="560" y1="210" x2="560" y2="330" stroke="#2a3a4a" stroke-width="1.5"/>
+
+  <!-- Hood -->
+  <path d="M620 205 L660 205 L700 250 L700 280 L620 280 Z"
+        fill="#1a2d40" stroke="#2a3a4a" stroke-width="1.5"/>
+
+  <!-- Headlight -->
+  <path d="M700 245 L730 255 L735 275 L700 275 Z" fill="#f59e0b" opacity="0.9"/>
+  <path d="M700 250 L725 258 L728 270 L700 270 Z" fill="#fbbf24"/>
+
+  <!-- Tail light -->
+  <path d="M128 270 L145 265 L148 290 L128 295 Z" fill="#ef4444" opacity="0.9"/>
+
+  <!-- Rear bumper -->
+  <path d="M120 340 L170 340 L170 350 L120 350 Z" fill="#162030" stroke="#2a3a4a" stroke-width="1"/>
+
+  <!-- Front bumper -->
+  <path d="M720 330 L770 330 L770 350 L720 350 Z" fill="#162030" stroke="#2a3a4a" stroke-width="1"/>
+
+  <!-- Rear wheel -->
+  <circle cx="215" cy="348" r="42" fill="#0a1520" stroke="#2a3a4a" stroke-width="2"/>
+  <circle cx="215" cy="348" r="30" fill="#101e2e" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="215" cy="348" r="14" fill="#0a1520" stroke="#3a4a5a" stroke-width="1"/>
+  <!-- Spokes -->
+  <line x1="215" y1="318" x2="215" y2="378" stroke="#3a4a5a" stroke-width="1.5"/>
+  <line x1="185" y1="348" x2="245" y2="348" stroke="#3a4a5a" stroke-width="1.5"/>
+  <line x1="194" y1="327" x2="236" y2="369" stroke="#3a4a5a" stroke-width="1.5"/>
+  <line x1="236" y1="327" x2="194" y2="369" stroke="#3a4a5a" stroke-width="1.5"/>
+
+  <!-- Front wheel -->
+  <circle cx="660" cy="348" r="42" fill="#0a1520" stroke="#2a3a4a" stroke-width="2"/>
+  <circle cx="660" cy="348" r="30" fill="#101e2e" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="660" cy="348" r="14" fill="#0a1520" stroke="#3a4a5a" stroke-width="1"/>
+  <!-- Spokes -->
+  <line x1="660" y1="318" x2="660" y2="378" stroke="#3a4a5a" stroke-width="1.5"/>
+  <line x1="630" y1="348" x2="690" y2="348" stroke="#3a4a5a" stroke-width="1.5"/>
+  <line x1="639" y1="327" x2="681" y2="369" stroke="#3a4a5a" stroke-width="1.5"/>
+  <line x1="681" y1="327" x2="639" y2="369" stroke="#3a4a5a" stroke-width="1.5"/>
+
+  <!-- Amber side stripe -->
+  <path d="M150 285 L720 285 L718 290 L150 290 Z" fill="#f59e0b" opacity="0.7"/>
+
+  <!-- RENAULT badge area -->
+  <rect x="380" y="165" width="5" height="20" rx="1" fill="#f59e0b"/>
+
+  <!-- Text label -->
+  <text x="450" y="60" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="28" font-weight="900" fill="#f59e0b" letter-spacing="8">RENAULT TRIBER RXT</text>
+  <text x="450" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#64748b" letter-spacing="4">2ND TOP MODEL · 7-SEATER · FULLY AC</text>
+
+  <!-- Decorative line under text -->
+  <line x1="340" y1="100" x2="560" y2="100" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- Replace with your photo note -->
+  <text x="450" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#334155" letter-spacing="2">PLACE YOUR PHOTO AT  public/triber.jpg</text>
+</svg>

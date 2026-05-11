@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f4f6f8;
+    color: #1a2027;
+  }
+
+  ::selection {
+    background: #f59e0b;
+    color: #1a2027;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-amber-500 text-steel-950 font-heading font-bold tracking-widest uppercase px-8 py-4 text-sm
+           transition-all duration-200 ease-out
+           hover:-translate-y-0.5 hover:shadow-lg hover:shadow-amber-500/30 hover:bg-amber-400
+           active:translate-y-0 active:shadow-none
+           focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-steel-950 font-heading font-bold tracking-widest uppercase px-8 py-4 text-sm
+           border-2 border-steel-950
+           transition-all duration-200 ease-out
+           hover:-translate-y-0.5 hover:bg-steel-950 hover:text-amber-400 hover:shadow-lg
+           active:translate-y-0
+           focus:outline-none focus:ring-2 focus:ring-steel-950 focus:ring-offset-2;
+  }
+
+  .btn-whatsapp {
+    @apply bg-green-500 text-white font-heading font-bold tracking-widest uppercase px-8 py-4 text-sm
+           transition-all duration-200 ease-out
+           hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-500/30 hover:bg-green-400
+           active:translate-y-0
+           focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2;
+  }
+
+  .section-label {
+    @apply font-heading font-semibold tracking-[0.3em] text-xs text-amber-600 uppercase;
+  }
+
+  .section-title {
+    @apply font-display text-5xl md:text-7xl text-steel-950 leading-none tracking-wide;
+  }
+
+  .card-industrial {
+    @apply bg-white border border-steel-200 transition-all duration-300
+           hover:-translate-y-2 hover:shadow-2xl hover:shadow-steel-900/10 hover:border-amber-400;
+  }
+
+  .divider-amber {
+    @apply w-16 h-1 bg-amber-500;
+  }
+}
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 2px #1a2027;
+    color: transparent;
+  }
+
+  .grid-texture {
+    background-image:
+      linear-gradient(rgba(26,32,39,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(26,32,39,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .diagonal-stripe {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 4px,
+      rgba(245,158,11,0.15) 4px,
+      rgba(245,158,11,0.15) 8px
+    );
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #e4e9ed;
+}
+::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

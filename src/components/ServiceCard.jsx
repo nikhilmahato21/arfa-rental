@@ -59,9 +59,8 @@ export default function ServiceCard({ service, index }) {
           ))}
         </ul>
 
-        {/* Price */}
-        <div className="pt-4 border-t border-steel-100 flex items-center justify-between">
-          <span className="font-heading font-bold text-sm tracking-wider text-steel-950">{service.price}</span>
+        {/* CTA */}
+        <div className="pt-4 border-t border-steel-100 flex justify-end">
           <motion.a
             href="tel:7003384410"
             className="font-heading font-bold text-xs tracking-widest text-amber-600 uppercase hover:text-amber-500 transition-colors flex items-center gap-1"

@@ -35,7 +35,6 @@ export const siteContent = {
       title: 'LOCAL RIDES',
       subtitle: 'Within Kolkata',
       description: 'Comfortable city travel for shopping, medical visits, events, and daily commutes across Kolkata.',
-      price: 'Starting ₹500/day',
       features: ['AC Renault Triber', 'Experienced Driver', 'Door-to-Door'],
     },
     {
@@ -44,7 +43,6 @@ export const siteContent = {
       title: 'OUTSTATION TRIPS',
       subtitle: 'Beyond the City',
       description: 'Long-distance travel to Digha, Mandarmani, Durgapur, Siliguri, and all major destinations from Kolkata.',
-      price: 'Starting ₹12/km',
       features: ['7-Seater Comfort', 'Night Halt Support', 'Flexible Return'],
     },
     {
@@ -53,7 +51,6 @@ export const siteContent = {
       title: 'AIRPORT TRANSFERS',
       subtitle: 'Netaji Subhash Chandra Bose',
       description: 'Reliable, punctual airport pickup and drop service. Track your flight, we track the time.',
-      price: 'Starting ₹800',
       features: ['Flight Tracking', 'On-Time Guarantee', 'Luggage Friendly'],
     },
     {
@@ -62,7 +59,6 @@ export const siteContent = {
       title: 'FULL-DAY HIRE',
       subtitle: 'Your schedule, our wheels',
       description: 'Book the car for the entire day — weddings, functions, corporate events, or family outings.',
-      price: 'Starting ₹1,800/day',
       features: ['12 Hours Included', 'Driver Provided', 'Corporate Billing'],
     },
   ],
